@@ -55,13 +55,10 @@ function calculateError(realValue, monteCarloValue) {
     return errorPercentage;
 }
 function calculateMonteCarloo() {
-    // ... (resto del código)
 
-    // Mostrar la alerta de éxito
     document.getElementById("success-alert").style.display = "block";
 
-    // Ocultar la alerta después de unos segundos (opcional)
     setTimeout(function() {
         document.getElementById("success-alert").style.display = "none";
-    }, 3000); // Ocultar después de 3 segundos (ajusta el tiempo según tus preferencias)
+    }, 3000); 
 }
